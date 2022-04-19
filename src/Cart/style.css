@@ -1,0 +1,85 @@
+:root{
+    --main-width-tw: 900px;
+}
+
+
+
+.cart {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 5rem;
+    z-index: 1;
+    min-height: 5rem;
+    cursor: pointer;
+    /* padding: 1%; */
+}
+
+.alignCart {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.basketStyle {
+    position: fixed;
+    right: 2rem;
+    z-index: 1;
+    top: 5rem;
+    min-width: var(--main-width-tw);
+  animation: show 1s ease-in-out;
+  }
+
+  @media(min-width: 300px) and (max-width: 1000px){
+    .cart{
+        top: 3rem;
+       bottom: unset;
+    }
+    .basketStyle {
+  min-width: 430px;
+      }
+}
+
+@keyframes show{
+    from{
+        top: 0rem;
+        opacity: 0;
+    }
+
+    to{
+        top: 5rem;
+        opacity: 1;
+    }
+}
+.btn-floating{
+    position: relative;
+    bottom: 10px;
+    margin:  auto 10px;
+}
+
+.atyle_i{
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+
+.mark {
+    overflow:inherit;
+    
+}
+
+  .mark::before {
+    content: "";
+    display: block;
+    position: absolute;
+    transform: translate(-100%);
+    width: 100px;
+    height: 100px;
+    background-image: url('https://i.imgur.com/MJekAr4.gif');
+    background-size: 100px 100px;
+    box-shadow: 1px 1px 5px #000;
+  }
+
+

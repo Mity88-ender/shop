@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardsContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  gap: 10px;
+
+}
+
+.stretches {
+  display: flex;
+}
+
+.stretch {
+  display: flex;
+  flex-direction: column;
+}
+
+.stretchCurrent {
+  flex-grow: 1;
+
+}
+
+.hider {
+display: block;
+}
+
