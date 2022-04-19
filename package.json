@@ -1,6 +1,6 @@
 {
   "name": "project_v",
-  "homepage": "https://Mity88-ender.github.io/React-shop",
+  "homepage": "https://Mity88-ender.github.io/shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
